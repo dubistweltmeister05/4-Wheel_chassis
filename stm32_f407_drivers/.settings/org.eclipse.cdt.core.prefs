@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.437049657/PATH/delimiter=;
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.437049657/PATH/operation=append
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.437049657/PATH/value=C\:\\Users\\wardawg\\Desktop\\TEAM AUTOMATONS\\STM_32_implementation\\stm32_f407_drivers\\drivers
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.437049657/append=true
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.437049657/appendContributed=true
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2118498547/PATH/delimiter=;
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2118498547/PATH/operation=append
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2118498547/PATH/value=C\:\\Users\\wardawg\\Desktop\\TEAM AUTOMATONS\\STM_32_implementation\\stm32_f407_drivers\\drivers
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2118498547/append=true
+environment/project/com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.2118498547/appendContributed=true

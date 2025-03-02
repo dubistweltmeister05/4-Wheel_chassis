@@ -1,0 +1,69 @@
+OpenOCD Debugger and Semi-hosting
+======================================
+Set the linker arguments 
+-specs=rdimon.specs -lc -lrdimon
+
+Add semi-hosting run command
+monitor arm semihosting enable 
+
+Add the below function call to main.c 
+extern void initialise_monitor_handles(void);
+    initialise_monitor_handles();
+
+
+
+GIT Commands 
+======================================
+1 - Git Configuration
+
+git config --global user.name "your_name"
+git config --global user.email "your_mail"
+git config --global color.ui auto
+
+2 - Starting a project
+
+git init [project name]
+git clone <project_url>
+
+3 - Daily Drivers
+
+git status - Reflects the current state of the Directory
+git add [FILE] - Adds a file to the staging area
+git diff [FILE] - Shows the difference between a file in the working directory and the staging area
+git diff --staged [FILE] - Shows the difference between a file in the staging area and the repository
+git checkout -- file - gets your changes the hell up outta here
+git commit 
+git rm - use rm-rf for some fun
+
+4 - Storing 
+ 
+git stash - puts current changes to a stash for later use
+git stash pop - current stash is applied, then cleared
+git stash drop - stash is dropped
+
+5 - Branching
+
+git branch [-a] - shows all branches of the repo, -a means all
+git branch [branch_name] - creates a branch
+git rebase [branch_name] - apply commits of the current working branch and apply to the head of the branch, making the history more linear
+git checkout [-b] [branch_name] - switch to the mentioned branch. -b means git will create it and then switch
+git merge [branch_name] - two shall be one
+
+6 - Inspect History
+
+git log [-n count] - Lists the commit history of the current branch. -n counts limits to the last n counts
+git log --oneline --graph --decorate - an overview with referance label and history graphs. One commits per line
+git log ..ref - lists commits on the ref and not merged into the current branch
+git reflog - lists operations made on local repo 
+
+7 - Reverting Changes
+
+git reset [--hard] [target_referance] - switches current branch to target reference, leaving all differences as uncommitted changes. --hard discards all differences
+
+8 - Synchronizing Repositories
+
+git fetch [remote]
+git fetch --prune
+git pull [remote]
+git push [--tags] [remote]
+git push -u

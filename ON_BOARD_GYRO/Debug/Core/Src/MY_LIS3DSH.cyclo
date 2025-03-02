@@ -1,0 +1,9 @@
+../Core/Src/MY_LIS3DSH.c:31:6:LIS3DSH_WriteIO	1
+../Core/Src/MY_LIS3DSH.c:44:6:LIS3DSH_ReadIO	2
+../Core/Src/MY_LIS3DSH.c:65:6:LIS3DSH_Init	7
+../Core/Src/MY_LIS3DSH.c:118:17:LIS3DSH_GetDataRaw	1
+../Core/Src/MY_LIS3DSH.c:138:20:LIS3DSH_GetDataScaled	1
+../Core/Src/MY_LIS3DSH.c:151:6:LIS3DSH_PollDRDY	5
+../Core/Src/MY_LIS3DSH.c:172:6:LIS3DSH_X_calibrate	1
+../Core/Src/MY_LIS3DSH.c:178:6:LIS3DSH_Y_calibrate	1
+../Core/Src/MY_LIS3DSH.c:184:6:LIS3DSH_Z_calibrate	1
