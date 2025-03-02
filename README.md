@@ -2,7 +2,7 @@
 
 ## 🌟 Overview
 
-This project implements a 4-wheeled holonomic robot controlled by a PS4 controller, featuring IMU-based orientation stabilization using the BNO055 sensor. Built on the STM32F407 platform, the robot offers precise omnidirectional movement capabilities with real-time orientation correction.
+This project (BNO_ATTEMPT_FOR_FINAL_YEAR) implements a 4-wheeled holonomic robot controlled by a PS4 controller, featuring IMU-based orientation stabilization using the BNO055 sensor. Built on the STM32F407 platform, the robot offers precise omnidirectional movement capabilities with real-time orientation correction.
 
 ## ⚡ Features
 
